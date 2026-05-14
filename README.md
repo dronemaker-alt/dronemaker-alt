@@ -1,114 +1,64 @@
-Hi, I'm Philip White 👋
+# Hi, I'm Philip White 👋
 
-🚁 About Me
+**FAA A&P mechanic • FCC Radiotelephone • Drone systems builder • Embedded hardware experimenter**
 
-FAA A&P mechanic with 40+ years of aircraft experience.
+I have 40+ years of aircraft experience and 16+ years building helicopters on a production line. My projects live where aviation, drones, embedded electronics, fabrication, 3D printing, and science-fiction computer interfaces meet.
 
-I build and experiment with:
+## 🚁 Current Focus
 
-Drones & UAV systems
+- Drone and UAV system concepts
+- ESP32 / LilyGo T-Display P4 handheld tools
+- Avionics-inspired diagnostic interfaces
+- AI-assisted hardware workflows
+- Embedded displays, buttons, sensors, and telemetry
+- 3D printed enclosures and rapid prototyping
 
-ESP32 and embedded electronics
+## 🛠️ Skills & Interests
 
-Avionics-inspired handheld tools
+- Aircraft maintenance and production experience
+- Embedded systems and microcontrollers
+- UAV architecture and flight electronics
+- Electronics repair and modification
+- 3D printing, machining, and fabrication
+- Human-machine interface design
+- Cyberpunk / sci-fi inspired hardware builds
 
-AI interfaces and interactive systems
+## 📂 Active Project Areas
 
-3D printing and fabrication
+### P4 Handheld Interface
+A portable ESP32/P4-based diagnostic and control platform inspired by aviation field tools. The goal is a rugged handheld interface for testing, telemetry, menus, and future AI-assisted workflows.
 
-Cyberpunk-style hardware concepts
+### ESP32 Avionics Tools
+Experiments with displays, serial links, sensors, telemetry parsing, and handheld diagnostic concepts.
 
+### Drone Concepts
+Experimental UAV layouts, modular systems, field tools, payload concepts, and aircraft-inspired design notes.
 
-Currently developing:
+### Cyberpunk AI Skull
+An interactive ESP32-powered display/statue concept with OLED eyes, LEDs, voice interaction, and AI personality hooks.
 
-LilyGo T-Display P4 handheld interface concepts
+## 🌱 Currently Learning
 
-ESP32 diagnostic and telemetry tools
+- Modern ESP32 development workflows
+- PlatformIO and ESP-IDF project structure
+- Embedded UI design
+- GitHub-based project documentation
+- AI integration with real-world hardware
 
-Drone system prototypes
-
-AI-assisted aviation hardware
-
-
-
----
-
-🛠️ Skills & Interests
-
-Embedded Systems
-
-Drone Design
-
-Avionics
-
-Rapid Prototyping
-
-Electronics Repair
-
-3D Printing
-
-CNC / Fabrication
-
-UI Concepts for Embedded Devices
-
-
-
----
-
-📂 Current Project Ideas
-
-P4 Handheld Interface
-
-Portable ESP32/P4-based diagnostic and control platform inspired by aviation tooling.
-
-Drone Concepts
-
-Experimental UAV layouts, modular systems, and future aircraft concepts.
-
-Cyberpunk AI Skull
-
-Interactive ESP32-powered AI display/statue with OLED eyes, LEDs, and voice interaction.
-
-
----
-
-🌱 Currently Learning
-
-Advanced embedded UI development
-
-ESP-IDF and modern ESP32 frameworks
-
-GitHub workflow and open-source collaboration
-
-AI integration with embedded hardware
-
-
-
----
-
-🤝 Collaboration
+## 🤝 Collaboration Interests
 
 Interested in collaborating on:
 
-Drone systems
+- Drone systems
+- Embedded electronics
+- Experimental interfaces
+- Open-source aviation-inspired tools
+- Portable diagnostic hardware
 
-Embedded electronics
+## ⚡ Inspiration
 
-Experimental interfaces
-
-Open-source aviation tools
-
-
+Inspired by HAL 9000, JARVIS, C-3PO, and classic sci-fi computer interfaces — building real-world versions one prototype at a time.
 
 ---
 
-⚡ Fun Fact
-
-Inspired by HAL 9000, JARVIS, and classic sci‑fi computer interfaces — building real-world versions one prototype at a time.Drone systems engineer & prototype builder
-ESP32 • Embedded UI • Avionics
-Developing handheld AI-assisted aviation tools
-
-<!---
-dronemaker-alt/dronemaker-alt is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+> Practical aviation experience + embedded hardware + imagination = better tools.
