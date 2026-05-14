@@ -1,10 +1,6 @@
-- 👋 Hi, I’m @dronemaker-alt
-- 👀 I’m interested in ...Drones
-- 🌱 I’m currently learning ...programming
-- 💞️ I’m looking to collaborate on ... drone software and groundstation
-- 📫 How to reach me ...
-- 😄 Pronouns: ... what where when
-- ⚡ Fun fact: ...
+Drone systems engineer & prototype builder
+ESP32 • Embedded UI • Avionics
+Developing handheld AI-assisted aviation tools
 
 <!---
 dronemaker-alt/dronemaker-alt is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
