@@ -81,6 +81,24 @@ Reverse engineering and documentation of legacy flight hardware, embedded system
 
 ---
 
+# REPOSITORY ORGANIZATION
+
+This repository separates active engineering work from outside research and long-term preservation.
+
+- [`projects/`](projects/) — active project notebooks, experiments, hardware development, and test results. The [LILYGO T-Display P4 notes](projects/p4/first_impressions.md) begin the portable telemetry and diagnostics terminal record.
+- [`ARCHITECTURE/`](ARCHITECTURE/) — system concepts, requirements, subsystem boundaries, interfaces, and planned experiments.
+- [`research_archive/`](research_archive/) — structured references to outside airframes, radar, robots, sensors, companion computers, ground stations, software, and materials testing. Entries progress from **source note** to **research reference**, **mirror**, and **tested reference**.
+- [`RECOVERED-TECHNOLOGY-ARCHIVE/`](RECOVERED-TECHNOLOGY-ARCHIVE/) — salvaged, obsolete, unidentified, or repairable flight controllers, embedded boards, communication hardware, sensors, displays, and power systems.
+- [`ARCHIVE-INDEX.md`](ARCHIVE-INDEX.md) — the preservation strategy covering active development, repository mirrors, engineering records, media, and offline cold storage.
+
+New external research entries should start with [`research_archive/MIRROR_TEMPLATE.md`](research_archive/MIRROR_TEMPLATE.md) and record attribution, version, license status, preserved files, verification, and test results.
+
+Document what was observed, separate claims from verified results, and turn useful ideas into measurable Drone Libre experiments.
+
+**Preserve first. Organize second. Understand continuously.**
+
+---
+
 # FEATURED PROJECTS
 
 ## Cali-Spider
