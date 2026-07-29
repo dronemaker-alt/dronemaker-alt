@@ -41,6 +41,8 @@ Real experiments.
 | Cyber Skull | Experimental | Interactive AI cyberpunk display/statue |
 | DroneMesh | R&D | Distributed drone communication concepts |
 | CubeBond | Concept | CubeSat orbital debris capture concept |
+| [DronLibre Rescue Logs](https://github.com/dronemaker-alt/DronLibre-Rescue-Logs) | Active archive | Drone rescue, teardown, hardware-discovery, and recovery records |
+| [AERIS-10 Mirror](https://github.com/dronemaker-alt/AERIS-10-Mirror) | Research mirror | Open-source PLFM phased-array radar engineering reference |
 
 ---
 
