@@ -2,15 +2,9 @@
 
 *Engineering should be documented, repairable, reusable, and free to learn from.*
 
-Welcome!
+Drone Libre is an open-hardware engineering initiative focused on robotics, embedded systems, reusable power electronics, and unmanned aircraft.
 
-I'm building **Drone Libre**, an open hardware engineering initiative focused on robotics, embedded systems, reusable power electronics, and unmanned aircraft.
-
-The goal isn't simply to build drones.
-
-The goal is to build **well-documented engineering projects** that anyone can study, reproduce, improve, and repair.
-
----
+The goal is not simply to build drones. It is to produce well-documented engineering projects that others can study, reproduce, improve, and repair.
 
 ## Engineering Philosophy
 
@@ -29,8 +23,6 @@ Every project should include:
 
 **If it isn't documented, it isn't finished.**
 
----
-
 ## Current Focus
 
 - Open ESP32 flight systems
@@ -41,7 +33,31 @@ Every project should include:
 - Engineering test fixtures
 - Sustainable electronics reuse
 
----
+See the [full engineering roadmap](ROADMAP.md) for planned phases and longer-term work.
+
+## Repository Map
+
+This repository separates active Drone Libre engineering from outside research and long-term preservation.
+
+### Active Engineering
+
+- [`projects/`](projects/) — project notebooks, hardware development, firmware work, and test results.
+- [`ARCHITECTURE/`](ARCHITECTURE/) — requirements, subsystem boundaries, interfaces, assumptions, and planned validation.
+- [`LAB-NOTES/`](LAB-NOTES/) — dated experiments, measurements, failures, observations, and bench results.
+- [`FIELD-MANUALS/`](FIELD-MANUALS/) — repeatable bring-up, test, fabrication, and lab procedures.
+- [`research/`](research/) — Drone Libre-originated design studies that may become active projects.
+
+### Research and Preservation
+
+- [`research_archive/`](research_archive/) — structured references to outside projects and concepts. Entries progress from **source note** to **research reference**, **mirror**, and **tested reference**.
+- [`RECOVERED-TECHNOLOGY-ARCHIVE/`](RECOVERED-TECHNOLOGY-ARCHIVE/) — salvaged, obsolete, unidentified, or repairable hardware and its reverse-engineering record.
+- [`ARCHIVE-INDEX.md`](ARCHIVE-INDEX.md) — preservation strategy for active development, repository mirrors, engineering records, media, and cold storage.
+- [DronLibre Rescue Logs](https://github.com/dronemaker-alt/DronLibre-Rescue-Logs) — active drone rescue, teardown, hardware-discovery, and recovery records.
+- [AERIS-10 Mirror](https://github.com/dronemaker-alt/AERIS-10-Mirror) — preserved PLFM phased-array radar research reference; not a validated Drone Libre hardware baseline.
+
+New outside research entries should start with the [mirror-entry template](research_archive/MIRROR_TEMPLATE.md). Record attribution, version, license status, preserved files, verification status, and test results.
+
+Document what was observed, separate claims from verified results, and turn useful ideas into measurable experiments.
 
 ## Sustainable Engineering
 
@@ -56,20 +72,6 @@ Current work includes repurposing USB-C rechargeable vape power modules for:
 
 Reuse before recycling.
 
----
-
-## Drone Libre Roadmap
-
-- ✅ Reverse engineer power modules
-- ✅ Engineering documentation workflow
-- 🚧 ESC platform
-- 🚧 Flight controller
-- 🚧 Printable modular frame
-- 🚧 Production test fixtures
-- 🚧 Community prototype program
-
----
-
 ## Guiding Principles
 
 - Open Hardware
@@ -80,25 +82,13 @@ Reuse before recycling.
 - Test Before Trusting
 - Build. Document. Test. Share.
 
----
----
-
-# Safety Philosophy
+## Safety Philosophy
 
 Engineering should improve lives—not put them at unnecessary risk.
 
-Many projects within Drone Libre involve:
+Drone Libre work may involve lithium-ion batteries, high-current electronics, rotating machinery, fabrication equipment, RF systems, and embedded hardware. Safety is part of the design and validation process from the beginning.
 
-- Lithium-ion batteries
-- High-current power electronics
-- Rotating machinery
-- 3D printers and fabrication equipment
-- RF systems
-- Embedded electronics
-
-Safety is designed into every project from the beginning.
-
-## Core Principles
+Core rules:
 
 - Inspect before powering.
 - Measure before assuming.
@@ -106,30 +96,6 @@ Safety is designed into every project from the beginning.
 - Document before repeating.
 - Replace questionable components rather than risking failure.
 
-### Lithium-Ion Battery Safety
-
-Many Drone Libre projects explore the reuse of lithium-ion batteries recovered from consumer electronics.
-
-These cells have an unknown history and should always be treated as **unverified** until inspected and tested.
-
-Always:
-
-- Inspect for swelling, punctures, corrosion, or physical damage.
-- Charge in a fire-resistant location.
-- Monitor initial charge and discharge cycles.
-- Verify voltage, capacity, and temperature.
-- Recycle damaged or questionable cells responsibly.
-
-If there is any doubt about a battery's condition:
-
-**Do not use it.**
-
-Hardware can be replaced.
-
-People cannot.
-
----
+Recovered lithium-ion cells remain **unverified** until inspection and measured charge/discharge testing establish their condition. Detailed procedures belong in the [field manuals](FIELD-MANUALS/).
 
 Engineering is about curiosity, but good engineering is also about responsibility.
-
-Thanks for stopping by. If you're interested in open engineering, robotics, embedded systems, or sustainable hardware, you're in the right place.
