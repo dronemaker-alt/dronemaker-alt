@@ -1,54 +1,30 @@
-# ARCHIVE INDEX
+# Archive Index
 
-# LAB ARCHIVE STRUCTURE
+## Lab Archive Structure
 
 This repository and associated storage systems are organized into multiple tiers.
 
 The goal is long-term preservation of:
 
-- embedded systems knowledge
-- flight firmware ecosystems
-- robotics research
-- avionics concepts
-- fabrication workflows
-- reverse engineering data
-- engineering history
+- Embedded-systems knowledge
+- Flight-firmware ecosystems
+- Robotics research
+- Avionics concepts
+- Fabrication workflows
+- Reverse-engineering data
+- Engineering history
 
----
+## Storage Tiers
 
-# STORAGE TIERS
+### Active Development
 
-## ACTIVE DEVELOPMENT
+The high-speed working environment for current projects, firmware repositories, CAD files, experiments, and documentation.
 
-High-speed working environment.
+Examples include Cali-Spider, the P4 handheld, CyberSkull, and DroneMesh. Active work in this repository is indexed through [projects](projects/), [architecture](ARCHITECTURE/), and [lab notes](LAB-NOTES/).
 
-Contains:
+### Mirror Repositories
 
-- current projects
-- working firmware repos
-- CAD files
-- active experiments
-- current documentation
-
-Examples:
-
-- Cali-Spider
-- P4-Handheld
-- CyberSkull
-- DroneMesh
-
----
-
-# MIRROR REPOSITORIES
-
-Offline mirrors of critical GitHub repositories.
-
-Purpose:
-
-- preserve firmware ecosystems
-- retain commit history
-- survive repository deletion
-- maintain offline access
+Offline mirrors preserve critical source repositories, commit history, and access if an upstream project disappears.
 
 Mirror clones use:
 
@@ -56,106 +32,58 @@ Mirror clones use:
 git clone --mirror
 ```
 
----
+Outside-project references and their verification status are indexed in the [research archive](research_archive/).
 
-# ENGINEERING ARCHIVE
+### Engineering Archive
 
-Long-term preserved knowledge.
+Long-term preserved knowledge, including PDFs, schematics, BOMs, board photos, firmware releases, pinouts, teardown notes, and recovered hardware.
 
-Includes:
+Physical and legacy hardware records belong in the [Recovered Technology Archive](RECOVERED-TECHNOLOGY-ARCHIVE/).
 
-- PDFs
-- schematics
-- BOMs
-- board photos
-- firmware releases
-- pinouts
-- teardown notes
-- recovered hardware
+### Media Archive
 
----
+Visual engineering history, including bench photos, prototypes, wiring diagrams, screenshots, architecture diagrams, and project progression.
 
-# MEDIA ARCHIVE
+### Cold Storage
 
-Visual engineering history.
+Offline backup storage for disaster recovery, archive preservation, and long-term redundancy. Important archives should exist in more than one physical location.
 
-Includes:
+## Current Archive Goals
 
-- bench photos
-- prototypes
-- wiring diagrams
-- screenshots
-- architecture diagrams
-- project progression
+### Flight Systems
 
----
-
-# COLD STORAGE
-
-Offline backup storage.
-
-Used for:
-
-- disaster recovery
-- archive preservation
-- long-term redundancy
-
-Important archives should exist in more than one physical location.
-
----
-
-# CURRENT ARCHIVE GOALS
-
-## Flight Systems
 - INAV
 - ArduPilot
 - PX4
 - Betaflight
 - Paparazzi
 
-## Embedded Systems
+### Embedded Systems
+
 - ESP32
 - STM32
-- display systems
-- telemetry systems
+- Display systems
+- Telemetry systems
 
-## Robotics
-- distributed control
-- modular robotics
-- sensor fusion
-- autonomous navigation
+### Robotics
 
-## Space Systems
+- Distributed control
+- Modular robotics
+- Sensor fusion
+- Autonomous navigation
+
+### Space Systems
+
 - CubeSat frameworks
 - NASA cFS
 - OpenSatKit
 
----
+## Long-Term Objective
 
-# LONG-TERM OBJECTIVE
+Create a resilient engineering knowledge archive capable of surviving disappearing repositories, dead forums, lost documentation, link rot, obsolete hardware, and fragmented ecosystems.
 
-Create a resilient engineering knowledge archive capable of surviving:
+The archive should remain useful for experimentation, learning, reverse engineering, firmware analysis, autonomous-systems research, and future hardware development.
 
-- disappearing repositories
-- dead forums
-- lost documentation
-- link rot
-- obsolete hardware
-- fragmented ecosystems
+## Engineering Principle
 
-The archive is intended to remain useful long-term for:
-
-- experimentation
-- learning
-- reverse engineering
-- firmware analysis
-- autonomous systems research
-- future hardware development
-
----
-
-# ENGINEERING PRINCIPLE
-
-Preserve first.
-Organize second.
-Understand continuously.
+Preserve first. Organize second. Understand continuously.
