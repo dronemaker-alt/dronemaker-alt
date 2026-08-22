@@ -6,7 +6,7 @@ Active project notebooks, hardware development, firmware work, and test results 
 
 | Project | Status | Purpose | Next useful validation |
 |---|---|---|---|
-| [LILYGO T-Display P4](p4/first_impressions.md) | Bring-up | Portable telemetry, diagnostics, and field-interface platform | Confirm board pin definitions, LCD initialization order, backlight control, and a known-good display test |
+| [LILYGO T-Display P4 boot guide](p4/boot_guide.md) | Bring-up | Portable telemetry, diagnostics, and field-interface platform | Confirm board pin definitions, LCD initialization order, backlight control, and a known-good display test |
 
 ## Entry Standard
 
